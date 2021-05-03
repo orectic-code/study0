@@ -49,7 +49,7 @@ print_hand()
 # 引数で入力されたキャラクター名が存在するか確認して結果をprint文で表示させる<BR>
 # 例）引数が「ぎゆう」→nameにぎゆうが存在する→ぎゆうは含まれますと表示
 
-name = 'ぎゆう'
+name = 'imai'
 
 if name in names:
     print(f'{name}はいます。')
