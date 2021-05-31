@@ -1,12 +1,14 @@
 # 1
 name1 = "ねずこ"
 name2 = "ぜんいつ"
-print(name1,name2)
+print(f'{name1}と{name2}は仲間です')
 
 # 2
-name2 = "むざん"
+name2 = "今井"
 if name2 == "むざん":
-    print("仲間ではありません")
+    print(f'{name2}仲間ではありません')
+else:
+    print(f'{name2}は仲間です')
 
 # 3
 names=["たんじろう","ぎゆう","ねずこ","むざん"]
@@ -18,10 +20,12 @@ for i in names:
     print(i)
 
 # 5
-def print_hand():
-    print('ピース')
+def microwave():
+    print("時間を指定します")
+    print("温めます")
+    print("温めるのをやめます")
 
-print_hand()
+microwave()
 
 # 6
 def search(name):
@@ -31,4 +35,4 @@ def search(name):
         print(f'{name}は含まれません.')
         #0 is a member of [0, 1, 2]
 
-search('今井')
+search('ねずこ')
