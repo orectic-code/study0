@@ -28,11 +28,11 @@ def microwave():
 microwave()
 
 # 6
-def search(name):
+def member(name):
     if name in names:
         print(f'{name}は含まれます.')
     else:
         print(f'{name}は含まれません.')
         #0 is a member of [0, 1, 2]
 
-search('ねずこ')
+member(input('名前を入力してください　＞＞'))
