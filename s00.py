@@ -33,6 +33,15 @@ def member(name):
         print(f'{name}は含まれます.')
     else:
         print(f'{name}は含まれません.')
-        #0 is a member of [0, 1, 2]
 
 member(input('名前を入力してください　＞＞'))
+
+###
+# l = names
+# i = "ほいげほげ"
+
+# if i in l:
+#     print('{} is a member of {}.'.format(i, l))
+# else:
+#     print('{} is not a member of {}.'.format(i, l))
+# # 100 is not a member of [0, 1, 2].
